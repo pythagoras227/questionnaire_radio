@@ -77,36 +77,62 @@ function clearStatusClass(element) {
 }
 
 const questions = [
+
   {
-    question: 'What is 2 + 2?',
+    question: 'Which of the following is the major inhibitory neurotransmitter in the brainstem and spinal chord?',
     answers: [
-      { text: '4', correct: true },
-      { text: '22', correct: false }
+      { text: 'Glycine', correct: true }, /*question 2 Appendix A Groupwork*/
+      { text: 'Aspartate', correct: false }, /*https://docs.google.com/document/d/1FysOzYwPa6OOZRJJJRopRuehLpAOc69mPAR1krpUWAo/edit#*/
+      { text: 'Dopamine', correct: false },
+      { text: 'Enkephalin', correct: false }
     ]
   },
-  {
-    question: 'Who is the best YouTuber?',
+  {question: 'Cocaine addiction is related to which brain area?',/*question 4*/
     answers: [
-      { text: 'Web Dev Simplified', correct: true },
-      { text: 'Traversy Media', correct: true },
-      { text: 'Dev Ed', correct: true },
-      { text: 'Fun Fun Function', correct: true }
+      { text: 'Nucleus Accumbens', correct: true },
+      { text: 'Ventral Tegmental Area', correct: false },
+      { text: 'Frontal Cortex', correct: false },
+      { text: 'Ventral Pallidum', correct: false }
     ]
   },
+
   {
-    question: 'Is web development fun?',
+    question: 'Which neurotransmitter pathway projects through the prefrontal cortex?', //question 5
     answers: [
-      { text: 'Kinda', correct: false },
-      { text: 'YES!!!', correct: true },
-      { text: 'Um no', correct: false },
-      { text: 'IDK', correct: false }
+      { text: 'The acetylcholine pathway', correct: false },
+      { text: 'The dopamine pathway', correct: true },
+      { text: 'The norepinephrine pathway', correct: false },
+      { text: 'The serotonin pathway', correct: false }
     ]
   },
+
   {
-    question: 'What is 4 * 2?',
+    question: 'Which of the following is the main inhibitory neurotransmitter in the adult brain?', //question 6
     answers: [
-      { text: '6', correct: false },
-      { text: '8', correct: true }
+      { text: 'Glycine', correct: false },
+      { text: 'GABA', correct: true },
+      { text: 'Serotonin', correct: false },
+      { text: 'Acetylcholine', correct: false }
     ]
-  }
+  },
+
+  {
+    question: ' Which of the following drugs do not affect the nucleus accumbens?', //question 7
+    answers: [
+      { text: 'Amphetamines', correct: false },
+      { text: 'Cocaine', correct: false },
+      { text: 'Cannabis', correct: false },
+      { text: 'Nicotine', correct: true }
+    ]
+  },
+
+  {
+    question: ' Which of the following is a role of norepinephrine?', //question 12
+    answers: [
+      { text: 'Emotional processing', correct: false },
+      { text: 'Psychosis', correct: true },
+      { text: 'Movement', correct: false },
+      { text: 'Pain', correct: false }
+    ]
+  },
 ]
